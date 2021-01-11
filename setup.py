@@ -5,14 +5,14 @@ from setuptools import (
 )
 
 setup(
-    name='client-python-tool.py',
+    name='python-migrate-tool',
     # *IMPORTANT*: Don't manually change the version here. Use the 'bumpversion' utility.
     version='0.7.4',
     description="""PlatON alaya python tool""",
     # long_description_markdown_filename='README.md',
-    author='john zhang',
+    author='shinnng',
     author_email='shinnng@outlook.com',
-    url='https://github.com/jiuen1115/client-python-tool',
+    url='https://github.com/AlayaNetwork/python-migrate-tool',
     include_package_data=True,
     install_requires=[
         "toolz>=0.9.0,<1.0.0;implementation_name=='pypy'",
